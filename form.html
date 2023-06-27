@@ -9,20 +9,20 @@
     <form action="proses.php" method="post">
         <div>    
             <label for="angka1">angka pertama</label>
-            <input type="text" name="angkasatu" id="angka1">
+            <input type="number" name="angkasatu" id="angka1">
         </div>
         <div>
             <label for="aritmatika">aritmatika</label>
             <select name="aritmatika" id="aritmatika">
-                <option value="+">Tambah</option>
-                <option value="-">Kurang</option>
-                <option value="*">Kali</option>
-                <option value="/">bagi</option>
+                <option value="tambah">Tambah</option>
+                <option value="kurang">Kurang</option>
+                <option value="kali">Kali</option>
+                <option value="bagi">bagi</option>
             </select>
         </div>
         <div>
             <label for="angka2">angka kedua</label>
-            <input type="text" name="angkadua" id="angka2">
+            <input type="number" name="angkadua" id="angka2">
         </div>
       <button type="submit">hitung</button>
     </form>
